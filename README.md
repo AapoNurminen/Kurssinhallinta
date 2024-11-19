@@ -1,2 +1,2 @@
 # Kurssinhallinta
-Projekti
+Kurssihallinta tehtävä :)

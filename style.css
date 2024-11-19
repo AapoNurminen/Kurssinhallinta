@@ -1,0 +1,127 @@
+/* Global Styles for the PHP application */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Pidämme alkuperäisen fontin */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Vaalean harmaa tausta */
+    color: #333; /* Tummanharmaa teksti */
+    padding: 20px;
+}
+
+/* Header style */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5d5d5d; /* Hillitty harmaa */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd; /* Vaalean harmaa reunus */
+    font-size: 1rem;
+}
+
+table th, table td {
+    padding: 10px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #d3d3d3; /* Vaalean harmaa taustaväri */
+    color: #333; /* Tumma teksti */
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Vaalean harmaa raitaväri */
+}
+
+table tr:hover {
+    background-color: #e9e9e9; /* Keveä hover-efekti */
+}
+
+/* Link styles */
+a {
+    color: #5d5d5d; /* Hillitty harmaa */
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ddd; /* Vaalean harmaa hover-efekti */
+    color: #000; /* Tummempi teksti hover-tilassa */
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #333; /* Tumma teksti */
+}
+
+form select, form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Vaalea reunus */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #4d4d4d; /* Tummanharmaa painike */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #333; /* Tummempi harmaa hover-tilassa */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777; /* Vaaleanharmaa teksti */
+}
+
+footer a {
+    color: #777; /* Vaaleanharmaa linkki */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #333; /* Tumma linkki hover-tilassa */
+}
